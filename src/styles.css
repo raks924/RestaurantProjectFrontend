@@ -1,0 +1,112 @@
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* change this to the background color you want */
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a shadow effect if you want */
+  }
+  
+.nav-bar ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.nav-bar li {
+margin-right: 1rem; /* adjust the spacing between menu items as needed */
+}
+
+.nav-bar a {
+text-decoration: none;
+color: #333; /* change this to the color you want for menu items */
+font-weight: bold;
+}
+
+.nav-bar a:hover {
+color: #000; /* change this to the hover color you want for menu items */
+}
+
+.headline {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 0px #aa81c2, 4px 4px 0px rgba(151, 11, 233, 0.15);
+  
+  
+}
+
+.mlHead {
+  
+    font-family: Georgia, cursive;
+    font-size: 38px;
+    color: #360d4e;
+    text-shadow: 2px 2px #390f5b;
+    background: linear-gradient(to right, #590042, #e1dcdc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-align: center;
+    
+}
+
+.mlHead:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 5px;
+  background-color: #590042;
+}
+
+.navbar-brand {
+  font-family: "Trirong", serif;
+
+} 
+
+.aboutus { 
+  background-Color: '#f7f7f7';
+  padding: '50px';
+  font-Family: 'Helvetica, Arial, sans-serif';
+  font-Size: '18px';
+  line-Height: '1.5';
+  text-Align: 'canter';
+  
+}
+
+.pri-button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.pri-button:hover {
+  
+}
+
+.menuList {
+  background-color: 	#ffe4e1;
+}
+
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
